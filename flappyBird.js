@@ -21,6 +21,7 @@ document.addEventListener('keydown', keyDownHandler, false);
 document.addEventListener('touchstart', touchStart, false); 
 function keyDownHandler(event) {
     if(event.keyCode == 38) {
+        event.preventDefault();
         upPress = true;
     }
 }
