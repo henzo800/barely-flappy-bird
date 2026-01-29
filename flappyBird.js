@@ -1,3 +1,6 @@
+/*
+Barely Flappy Bird JS
+*/
 var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
 var pX = 50;
@@ -119,4 +122,5 @@ function draw() {
 		}
 	}
 }
+
 setInterval(draw, 10);
